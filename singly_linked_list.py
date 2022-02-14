@@ -31,6 +31,7 @@ d.next = None
 
 temp = a
 
+# display the linked list
 while temp is not None:
     if temp.next == None:
       print(temp.datavalue, end=" ---> Null")
